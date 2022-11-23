@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/homepage.css";
 
@@ -38,7 +38,7 @@ import PaymentSuccess from "./Components/Student/PaymentSuccess";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<SharedHomeLayout />}>
             <Route index element={<Home />} />
@@ -81,7 +81,7 @@ function App() {
           <Route path="/notauthorised" element={<Notauthorised />} />
           
         </Routes>
-      </BrowserRouter>
+      </Router>
       <Footer />
     </>
   );

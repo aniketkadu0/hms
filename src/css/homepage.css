@@ -1,0 +1,9 @@
+#logo{
+    height: 70px;
+}
+body{
+    background-image: url("../Images/homepageBackground.jpg"); 
+    background-size: 100%;
+    background-position-y: -100px;
+    overflow-x: hidden;
+}

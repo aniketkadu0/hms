@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2f4688c.css",
+    "main.js": "/static/js/main.44be2d9b.js",
+    "static/media/9.jpg": "/static/media/9.f81d1c7be8664085e4cc.jpg",
+    "static/media/5.jpg": "/static/media/5.bf72fcbb682c36d60959.jpg",
+    "static/media/8.jpg": "/static/media/8.7c31165d954126dab99d.jpg",
+    "static/media/7.jpg": "/static/media/7.d2e5edbbdc0a294beaba.jpg",
+    "static/media/home.mp4": "/static/media/home.38fae6ffc9d6924ee5e9.mp4",
+    "static/media/homepageBackground.jpg": "/static/media/homepageBackground.c3f3f52219f9ee95f95f.jpg",
+    "static/media/10.jpg": "/static/media/10.a8380fd91ab2501812c6.jpg",
+    "static/media/6.jpg": "/static/media/6.040b4aed8dfe4ea4ef2d.jpg",
+    "static/media/tick.jpg": "/static/media/tick.556cb7efb6069a098be8.jpg",
+    "static/media/3.jpg": "/static/media/3.7bec113292951c372f37.jpg",
+    "static/media/pngkey.com-avatar-png-1149878.png": "/static/media/pngkey.com-avatar-png-1149878.e582e4ba7aae2cecd658.png",
+    "static/media/index.jpeg": "/static/media/index.83a2a370f0e1229b1ec8.jpeg",
+    "static/media/4.jpg": "/static/media/4.05c02354d64629d19957.jpg",
+    "static/media/2.jpg": "/static/media/2.4394da555476d999e374.jpg",
+    "static/media/1.jpg": "/static/media/1.89b4794545a59c1276c3.jpg",
+    "index.html": "/index.html",
+    "main.d2f4688c.css.map": "/static/css/main.d2f4688c.css.map",
+    "main.44be2d9b.js.map": "/static/js/main.44be2d9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2f4688c.css",
+    "static/js/main.44be2d9b.js"
+  ]
+}

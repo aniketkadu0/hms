@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import StudentService from "../../Services/StudentService";
 import Mess from "./Mess";
 import PriceChart from "./PriceChart";
 import TotalBill from "./TotalBill";
 
 export default function CheckRoomAvailability() {
-  let navigate = useNavigate();
-  let user = JSON.parse(sessionStorage.getItem("user"));
+
   const authenticated = sessionStorage.getItem("authenticated") || false;
 
   const [rooms, setrooms] = useState(false);

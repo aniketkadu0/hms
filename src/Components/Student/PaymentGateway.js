@@ -1,11 +1,10 @@
-import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import StudentService from "../../Services/StudentService";
 
 export default function PaymentGateway() {
 
   let navigate = useNavigate();
-  const [data, setdata] = useState(useLocation().state)
+  const data = useLocation().state
 
   const redirect = () => {
     StudentService.makepayment(data.room,data.mess,data.user,data.amount)
@@ -30,18 +29,18 @@ export default function PaymentGateway() {
                 <a
                   className="nav-link px-2 active"
                   aria-current="page"  
-                  href="#"               
+                  href={()=>false}              
                 >
                   Debit Card
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link px-2" href="#">
+                <a className="nav-link px-2" href={()=>false}>
                   Mobile Payment
                 </a>
               </li>
               <li className="nav-item ms-auto">
-                <a className="nav-link px-2" href="#">
+                <a className="nav-link px-2" href={()=>false}>
                   + More
                 </a>
               </li>

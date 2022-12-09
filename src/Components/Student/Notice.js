@@ -57,7 +57,7 @@ export default function Notice() {
                 <tr key={notice.noticeId}>
                   <td>{notice.noticeId}</td>
                   <td>{notice.noticeDate}</td>
-                  <td><a onClick={openModal} className="link">{notice.subject}</a></td>
+                  <td><a onClick={openModal} href={()=>false} className="link">{notice.subject}</a></td>
                   <Modal
                     isOpen={modalIsOpen}
                     onAfterOpen={afterOpenModal}
